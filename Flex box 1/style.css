@@ -1,0 +1,115 @@
+#mainHeading {
+  background-color: red;
+  border: 10px solid black;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.containerDiv {
+  display: inline-block;
+  background-color: lightgreen;
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+.catPic {
+  border: 2px solid black;
+}
+
+#catDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+#catDiv1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#catDiv2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#catDiv3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#catDiv4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#catDiv5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#catDiv6 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#catDiv7 {
+  display: flex;
+  justify-content: start;
+}
+
+#catDiv8 {
+  display: flex;
+  justify-content: center;
+}
+
+#catDiv9 {
+  display: flex;
+  justify-content: end;
+}
+
+#catDiv10 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: end;
+}
+
+#catDiv11 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#catDiv12 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: start;
+}
+
+#catDiv13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+
+#catDiv14 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: start;
+}
